@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.nameh{
+    color: white;
+    text-align: left;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-item .nav-link :hover{
+    color: skyblue;
+}
+.div-center{
+    margin-top: 130px;
+}
+.Word{
+    text-align: left ;
+    display: block;
+    margin-top: 210px;
+}
+
+.animated {
+    animation: animate 2s ease-in-out infinite alternate-reverse;
+    animation-duration: 0.5s;
+    
+}
+
+@keyframes animate{
+    0%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+.mainh{
+    font-family: 'Quicksand', sans-serif;
+
+}
+.sera{
+    font-family: 'Quicksand', sans-serif;
+text-decoration: underline skyblue;
+}
+.ff{
+    display: block;
+    margin: auto;
+}
+.form{
+    border: 4px solid skyblue;
+}
+.aa{
+    width: 400px !important;
+    display: block;
+    margin: auto;
+}
+.form-label{
+    font-weight: bold !important;
+}
+.footer{
+    background-color: rgb(33, 37, 41);
+    position: absolute;
+    bottom: 0px;
+}
+.ft{
+    color: white;
+}
+/* Responsive===================== */
+/* MOBILE */
+@media  (min-width: 320px)  and (max-width: 767px){
+    .Word {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .div-center{
+        margin-top: 40px;
+    }
+    .aa{
+        width: 200px !important;
+        display: block;
+        margin: auto;
+        border-radius: 30px;
+    }
+  }
+  /* IPAD */
+  @media  (min-width: 767px)  and (max-width: 1023px){
+    .Word {
+      margin-top: 80px;
+      text-align: left;
+    }
+    .mainh{
+        font-size: 30px;
+    }
+    .div-center{
+        margin-top: 90px;
+    }
+    .aa{
+        width: 300px !important;
+        display: block;
+        margin: auto;
+    }
+  }
